@@ -26,7 +26,7 @@ class ComponentWithBackReference {
 /**
  * The client code.
  */
-function clientCode() {
+export default function clientCode() {
   const p1 = new Prototype();
   p1.primitive = 245;
   p1.component = new Date();
